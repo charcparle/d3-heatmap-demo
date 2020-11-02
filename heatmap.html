@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    svg{
+        background-color: #ddd;
+        border: solid 1px;
+      }
+      
+      .cell:hover{
+        fill: navy;
+      }
+      #title{
+        fill: #222;
+        font-family: monospace;
+        font-size: 20px;
+      }
+      #tooltip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        text-align: start;
+        width: 150px;
+        height: 50px;
+        padding: 2px;
+        font: 10px;
+        background: #eee;
+        box-shadow: 1px 1px 5px;
+        border-radius: 2px;
+        pointer-events: none;
+      }
+    </style>
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="vis.js"></script>
+</head>
+
+<body>
+    <div id="canvas"></div>
+</body>
